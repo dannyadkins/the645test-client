@@ -1,4 +1,4 @@
-var serverUri = "https://dadkins645-backend.herokuapp.com/nps/Trump";
+var serverUri = "https://dadkins645-backend.herokuapp.com";
 const complete = async (text) => {
   var uri = encodeURI(serverUri + "/complete/");
   let res = await fetch(uri, {
