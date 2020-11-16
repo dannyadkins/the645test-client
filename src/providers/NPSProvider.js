@@ -1,4 +1,4 @@
-var serverUri = "http://localhost:3001";
+var serverUri = "https://dadkins645-backend.herokuapp.com/nps/Trump";
 const findAndScoreTweets = async (topic) => {
   var uri = encodeURI(serverUri + "/nps/" + topic);
   const res = await fetch(uri).then(function (response) {
